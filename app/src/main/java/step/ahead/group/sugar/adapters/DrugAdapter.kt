@@ -9,10 +9,7 @@ import step.ahead.group.sugar.R
 import step.ahead.group.sugar.models.Drug
 
 
-class DrugAdapter(
-    private val doctors: RealmResults<Drug>,
-    val onClick: (doctor: Drug) -> Unit
-) : RecyclerView.Adapter<DrugAdapter.ViewHolder>() {
+class DrugAdapter(private val doctors: RealmResults<Drug>, val onClick: (doctor: Drug) -> Unit) : RecyclerView.Adapter<DrugAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, isActive: Int): ViewHolder {
 
