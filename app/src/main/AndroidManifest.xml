@@ -24,7 +24,7 @@
         </activity>
         <activity android:name=".activities.SplashIntroActivity" />
 
-        <receiver android:name=".services.SmsServer" android:enabled="true"
+        <receiver android:name=".lesteners.SmsListener" android:enabled="true"
             android:permission="android.permission.BROADCAST_SMS">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
