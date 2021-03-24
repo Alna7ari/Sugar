@@ -17,7 +17,7 @@ class NotificationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.activity_notifications_frament, container, false)
     }
 
     fun showReports(reports: RealmList<TestResult>) {

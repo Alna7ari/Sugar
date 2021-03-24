@@ -17,7 +17,7 @@ class ReportFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.activity_reports_fragment, container, false)
     }
 
     fun showReports(reports: RealmList<TestResult>) {

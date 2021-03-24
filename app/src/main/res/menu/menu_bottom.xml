@@ -3,23 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/first_fragment"
-        android:title="@string/menu_main"
-        android:icon="@drawable/ic_baseline_dashboard_24" />
+        android:id="@+id/step.ahead.group.sugar.fragments.PersonalSettingFragment"
+        android:title="@string/personal_info"
+        android:icon="@drawable/profile"
+        app:exb_color="@color/selected_item"/>
 
     <item
-        android:id="@+id/second_fragment"
-        android:title="@string/menu_main"
-        android:icon="@drawable/ic_baseline_dashboard_24"/>
+        android:id="@+id/step.ahead.group.sugar.fragments.NotificationFragment"
+        android:title="@string/notification"
+        android:icon="@drawable/notifi_icon"
+        app:exb_color="@color/selected_item"/>
 
     <item
-        android:id="@+id/third_fragment"
+        android:id="@+id/step.ahead.group.sugar.fragments.MainFragment"
         android:title="@string/menu_main"
-        android:icon="@drawable/ic_baseline_dashboard_24"/>
+        android:icon="@drawable/home"
+        app:exb_color="@color/selected_item" />
 
     <item
-        android:id="@+id/fourth_fragment"
-        android:title="@string/menu_main"
-        android:icon="@drawable/ic_baseline_dashboard_24"
-        app:showAsAction="never"/>
+        android:id="@+id/step.ahead.group.sugar.fragments.ReportFragment"
+        android:title="@string/reports"
+        android:icon="@drawable/dec"
+        app:exb_color="@color/selected_item"/>
+    <item
+        android:id="@+id/step.ahead.group.sugar.fragments.MoreFragment"
+        android:title="@string/show_more"
+        android:icon="@drawable/more"
+        app:exb_color="@color/selected_item"/>
+
+
 </menu>

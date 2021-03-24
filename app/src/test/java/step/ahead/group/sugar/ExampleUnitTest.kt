@@ -12,6 +12,14 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        val messagesBody = "Glucose level: \n 84.43 \n mg/dl"
+        val result = messagesBody.substringAfter("level:").substringBefore("mg/dl").replace(" ", "").toDoubleOrNull()
+        assertEquals(result, 84.43)
+    }
+    @Test
+    fun addition_isInt() {
+        val messagesBody = "Glucose level: \n 84 \n mg/dl"
+        val result = messagesBody.substringAfter("level:").substringBefore("mg/dl").replace(" ", "").toDoubleOrNull()
+        assertEquals(result, 84.0)
     }
 }

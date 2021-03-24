@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="onItem" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71c7e6d2-0839-4f4f-87f3-b33652c0942b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/fragments/AppIntroCustomNextButtonFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/utils/FragmentUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/app_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_add_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_button_instractions_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_continar_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_status_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_text_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_text_bg2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_text_bg3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/abeezee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/doid_abic_kufi_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/droid_arabic_kufi.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_fargment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notifications_frament.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profie_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_doctors_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_drags_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_food_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_sport_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_notifications.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_custom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/instractions_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/instractions_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/instractions_thierd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_doctor_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_drags_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_food_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_sports_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/share_reports_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_intro_info_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_intro_info_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/tabs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-hdpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-ldpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-mdpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xhdpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxhdpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/app_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/last_result_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable-xxxhdpi/whats_your_name_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/add_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/add_result_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/alarm_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/app_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/arrow_next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/avatar_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/ayah_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_add_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_btn_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_button_instractions_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_continar_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_status_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_text_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_text_bg2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/custom_text_bg3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/delete_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/device_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/exit_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/ic_baseline_dashboard_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/ic_baseline_more_vert_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/instractions_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/instractions_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/instractions_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/interduse_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/last_result_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/lets_know_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/logo_sugar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/logo_sugre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/logo_sugre_ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/main_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/main_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/next_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/notifi_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/save_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/save_txet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/save_update_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/share_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/signin_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/signin_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/singin_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/stuts_led.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/update_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/waiting_signal_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/wecome_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/welcome_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/welocme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/whats_your_age_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/whats_your_name_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawable_bak/drawable/whats_your_name_text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/activities/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/activities/SplashIntroActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/activities/SplashIntroActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/fragments/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/fragments/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/fragments/UserInfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/fragments/UserInfoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/utils/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar/utils/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/card_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_bottom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/step/ahead/group/sugar/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/step/ahead/group/sugar/ExampleUnitTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[1ce95e2c450c7ece]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="navigationResourceFile" />
+        <option value="Kotlin Object" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="ProjectId" id="1od9HVsJojQG5gm2A2eIuuBcmBm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/home/Alna7ari/.gradle/caches/modules-2/files-2.1/com.github.Alna7ari/SmoothBottomBar/1.7.6/2dbfa5cec8dceb69b523f111d77f09d1c88cf953/SmoothBottomBar-1.7.6-sources.jar!/me/ibrahimsn/lib/SmoothBottomBar.kt_SELECTED" value="SmoothBottomBar" />
+    <property name="android-custom-view/home/Alna7ari/.gradle/caches/modules-2/files-2.1/com.github.st235/expandablebottombar/1.3.0/3bc94fb9f80fef0fd252b19cec6be19362c87b38/expandablebottombar-1.3.0-sources.jar!/github/com/st235/lib_expandablebottombar/ExpandableBottomBar.kt_SELECTED" value="ExpandableBottomBar" />
+    <property name="android-custom-view/home/Alna7ari/Android/Sugar/app/src/main/java/step/ahead/group/sugar/utils/CustomBottomBar.kt_SELECTED" value="CustomBottomBar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-preview/home/Alna7ari/.gradle/caches/modules-2/files-2.1/com.github.Alna7ari/SmoothBottomBar/1.7.6/2dbfa5cec8dceb69b523f111d77f09d1c88cf953/SmoothBottomBar-1.7.6-sources.jar!/me/ibrahimsn/lib/SmoothBottomBar.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/home/Alna7ari/.gradle/caches/modules-2/files-2.1/com.github.st235/expandablebottombar/1.3.0/3bc94fb9f80fef0fd252b19cec6be19362c87b38/expandablebottombar-1.3.0-sources.jar!/github/com/st235/lib_expandablebottombar/ExpandableBottomBar.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/home/Alna7ari/Android/Sugar/app/src/main/java/step/ahead/group/sugar/utils/CustomBottomBar.kt_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="step.ahead.group.sugar.activites" />
+    </key>
+    <key name="android.template.-1456774002">
+      <recent name="step.ahead.group.sugar.activities" />
+      <recent name="step.ahead.group.sugar" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="step.ahead.group.sugar.utils" />
+      <recent name="step.ahead.group.sugar.fragments" />
+      <recent name="step.ahead.group.sugar.handlers" />
+      <recent name="step.ahead.group.sugar.dialogs" />
+      <recent name="step.ahead.group.sugar.adapters" />
+    </key>
+    <key name="android.template.1284151984">
+      <recent name="step.ahead.group.sugar.activities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/step/ahead/group/sugar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sugar.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step.ahead.group.sugar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="step.ahead.group.sugar" />
+      <option name="MAIN_CLASS_NAME" value="step.ahead.group.sugar.ExampleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleUnitTest.addition_isCorrect" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sugar.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step.ahead.group.sugar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="step.ahead.group.sugar" />
+      <option name="MAIN_CLASS_NAME" value="step.ahead.group.sugar.ExampleUnitTest" />
+      <option name="METHOD_NAME" value="addition_isCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleUnitTest.addition_isInt" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sugar.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step.ahead.group.sugar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="step.ahead.group.sugar" />
+      <option name="MAIN_CLASS_NAME" value="step.ahead.group.sugar.ExampleUnitTest" />
+      <option name="METHOD_NAME" value="addition_isInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Sugar.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Sugar.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="step.ahead.group.sugar.ExampleInstrumentedTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drawable-v24.* and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sugar.app" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="drawable-v24.*" />
+        <pattern testClass="drawable.*" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ExampleUnitTest.addition_isCorrect" />
+        <item itemvalue="Android JUnit.ExampleUnitTest" />
+        <item itemvalue="Android JUnit.ExampleUnitTest.addition_isInt" />
+        <item itemvalue="Android Instrumented Tests.ExampleInstrumentedT..." />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71c7e6d2-0839-4f4f-87f3-b33652c0942b" name="Default Changelist" comment="" />
+      <created>1613605512701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613605512701</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add all classes">
+      <created>1614899576550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614899576551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="اضافة الاشياء المختصة بأخذ القيمة من رسالة نصية">
+      <created>1615008961148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615008961148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add all classes" />
+    <MESSAGE value="اضافة الاشياء المختصة بأخذ القيمة من رسالة نصية" />
+    <option name="LAST_COMMIT_MESSAGE" value="اضافة الاشياء المختصة بأخذ القيمة من رسالة نصية" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="1262" key="#com.intellij.ide.util.MemberChooser" timestamp="1616378021324">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="1712" y="218" key="#com.intellij.ide.util.MemberChooser/0.1080.1600.900/1008.0.1920.1080@1008.0.1920.1080" timestamp="1615002119324" />
+    <state x="587" y="1262" key="#com.intellij.ide.util.MemberChooser/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616378021324" />
+    <state x="587" y="1262" key="#com.intellij.ide.util.MemberChooser/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614824629449" />
+    <state x="579" y="1331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1613606789778">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="579" y="1331" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613606789778" />
+    <state x="384" y="1301" width="832" height="486" key="AndroidCreateResourceFileDialog" timestamp="1616369640892">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="384" y="1301" width="832" height="486" key="AndroidCreateResourceFileDialog/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616369640892" />
+    <state x="384" y="1301" key="AndroidCreateResourceFileDialog/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614831794990" />
+    <state x="478" y="1457" key="AndroidCreateXmlResourceDialog" timestamp="1616458755480">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="478" y="1457" key="AndroidCreateXmlResourceDialog/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616458755480" />
+    <state x="636" y="1349" key="AndroidCreateXmlResourceDialog/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613617060089" />
+    <state x="478" y="1457" key="AndroidCreateXmlResourceDialog/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614836606203" />
+    <state x="340" y="1248" width="809" height="732" key="CommitChangelistDialog2" timestamp="1615008960868">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="340" y="1248" width="809" height="732" key="CommitChangelistDialog2/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615008960868" />
+    <state x="0" y="1102" width="809" height="878" key="CommitChangelistDialog2/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1614129072052" />
+    <state x="1240" y="26" key="CommitChangelistDialog2/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614899575848" />
+    <state x="667" y="1336" key="FileChooserDialogImpl" timestamp="1616460539530">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="667" y="1336" key="FileChooserDialogImpl/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616460539530" />
+    <state x="2071" y="442" key="Github.ShareDialog" timestamp="1613623733128">
+      <screen x="1238" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2071" y="442" key="Github.ShareDialog/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1613623733128" />
+    <state x="1982" y="223" key="Github.UntrackedFilesDialog" timestamp="1613623773652">
+      <screen x="1238" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1982" y="223" key="Github.UntrackedFilesDialog/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1613623773652" />
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom" timestamp="1616468275592">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615079268629" />
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616468275592" />
+    <state width="1554" height="177" key="GridCell.Tab.0.bottom/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613618858953" />
+    <state width="1546" height="244" key="GridCell.Tab.0.bottom/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1614128761347" />
+    <state width="1554" height="221" key="GridCell.Tab.0.bottom/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614837136554" />
+    <state width="1874" height="182" key="GridCell.Tab.0.bottom/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614819287336" />
+    <state width="1554" height="129" key="GridCell.Tab.0.bottom/0.22.1600.878@0.22.1600.878" timestamp="1614645664865" />
+    <state width="1554" height="221" key="GridCell.Tab.0.center" timestamp="1616468275591">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state width="1554" height="221" key="GridCell.Tab.0.center/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615079268629" />
+    <state width="1554" height="221" key="GridCell.Tab.0.center/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616468275591" />
+    <state width="1554" height="177" key="GridCell.Tab.0.center/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613618858952" />
+    <state width="1546" height="244" key="GridCell.Tab.0.center/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1614128761347" />
+    <state width="1554" height="221" key="GridCell.Tab.0.center/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614837136553" />
+    <state width="1874" height="182" key="GridCell.Tab.0.center/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614819287336" />
+    <state width="1554" height="129" key="GridCell.Tab.0.center/0.22.1600.878@0.22.1600.878" timestamp="1614645664864" />
+    <state width="1554" height="221" key="GridCell.Tab.0.left" timestamp="1616468275591">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state width="1554" height="221" key="GridCell.Tab.0.left/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615079268628" />
+    <state width="1554" height="221" key="GridCell.Tab.0.left/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616468275591" />
+    <state width="1554" height="177" key="GridCell.Tab.0.left/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613618858952" />
+    <state width="1546" height="244" key="GridCell.Tab.0.left/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1614128761346" />
+    <state width="1554" height="221" key="GridCell.Tab.0.left/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614837136552" />
+    <state width="1874" height="182" key="GridCell.Tab.0.left/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614819287328" />
+    <state width="1554" height="129" key="GridCell.Tab.0.left/0.22.1600.878@0.22.1600.878" timestamp="1614645664863" />
+    <state width="1554" height="221" key="GridCell.Tab.0.right" timestamp="1616468275592">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state width="1554" height="221" key="GridCell.Tab.0.right/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615079268629" />
+    <state width="1554" height="221" key="GridCell.Tab.0.right/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616468275592" />
+    <state width="1554" height="177" key="GridCell.Tab.0.right/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613618858953" />
+    <state width="1546" height="244" key="GridCell.Tab.0.right/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1614128761347" />
+    <state width="1554" height="221" key="GridCell.Tab.0.right/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614837136553" />
+    <state width="1874" height="182" key="GridCell.Tab.0.right/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614819287336" />
+    <state width="1554" height="129" key="GridCell.Tab.0.right/0.22.1600.878@0.22.1600.878" timestamp="1614645664864" />
+    <state x="381" y="1228" key="SettingsEditor" timestamp="1616460300169">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="381" y="1228" key="SettingsEditor/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616460300169" />
+    <state x="1695" y="177" key="SettingsEditor/0.1080.1600.900/1238.0.1920.1080@1238.0.1920.1080" timestamp="1613623464133" />
+    <state x="463" y="1312" key="Vcs.Push.Dialog.v2" timestamp="1615009012923">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="463" y="1312" key="Vcs.Push.Dialog.v2/0.1080.1600.900/1008.0.1920.1080@0.1080.1600.900" timestamp="1615009012923" />
+    <state x="1796" y="278" key="Vcs.Push.Dialog.v2/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614899881216" />
+    <state x="96" y="1202" width="1409" height="685" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616458204556">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="96" y="1202" width="1409" height="685" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616458204556" />
+    <state x="96" y="1202" width="1408" height="684" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.1080.1600.900/1240.0.1920.1080@0.1080.1600.900" timestamp="1614824963570" />
+    <state x="1355" y="146" width="1690" height="821" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.1080.1600.900/1240.0.1920.1080@1240.0.1920.1080" timestamp="1614900113222" />
+    <state x="454" y="1160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616375823540">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="454" y="1160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616375823540" />
+    <state x="504" y="1280" width="592" height="522" key="find.popup" timestamp="1613618667580">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="504" y="1280" width="592" height="522" key="find.popup/0.1080.1600.900/1238.0.1920.1080@0.1080.1600.900" timestamp="1613618667580" />
+    <state x="596" y="1404" key="scopes" timestamp="1616460865474">
+      <screen x="0" y="1080" width="1600" height="900" />
+    </state>
+    <state x="596" y="1404" key="scopes/0.1080.1600.900/1143.0.1920.1080@0.1080.1600.900" timestamp="1616460865474" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sugar$drawable_v24___and_1_more.ic" NAME="drawable-v24.* and 1 more Coverage Results" MODIFIED="1616459320785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Sugar$step_ahead_group_sugar_models_in_Sugar_app.ic" NAME="step.ahead.group.sugar.models in Sugar.app Coverage Results" MODIFIED="1614827527009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>step.ahead.group.sugar.models.*</FILTER>
+    </SUITE>
+  </component>
+</project>
