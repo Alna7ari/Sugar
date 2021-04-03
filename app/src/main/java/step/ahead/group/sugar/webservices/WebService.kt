@@ -1,25 +1,20 @@
 package step.ahead.group.sugar.webservices
 
-import android.util.Log
-import com.alna7ari.alnaharionline.webservices.Urls.MAIN_URL
+import step.ahead.group.sugar.webservices.Urls.MAIN_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit
-import javax.net.ssl.SSLContext
 import io.realm.RealmObject
 import com.google.gson.FieldAttributes
 import com.google.gson.ExclusionStrategy
 import com.google.gson.GsonBuilder
-import com.google.gson.Gson
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import step.ahead.group.sugar.requests.TestResultRequest
 import step.ahead.group.sugar.responses.TestResultResponse
 import step.ahead.group.sugar.utils.ResponseValidation
-import javax.net.ssl.HostnameVerifier
-import javax.net.ssl.HttpsURLConnection
 
 
 /**
@@ -27,7 +22,7 @@ import javax.net.ssl.HttpsURLConnection
  */
 
 class WebService() {
-    private val api: API
+    val api: API
 
     init {
 
@@ -62,11 +57,29 @@ class WebService() {
     companion object {
         private var instance: WebService? = null
 
-        private fun getInstance(): WebService {
+        fun getInstance(): WebService {
             if (instance == null) {
                 instance = WebService()
             }
             return instance as WebService
+        }
+        fun check(onResponse: (isConnected:Boolean) -> Unit) {
+            getInstance().api.checkConnection().enqueue(object :
+                Callback<TestResultResponse> {
+
+                override fun onResponse(call: Call<TestResultResponse>, response: Response<TestResultResponse>) {
+                    if (response.body()?.status == 1) {
+                        onResponse(true)
+                        return
+                    }
+                    onResponse(false)
+                }
+
+
+                override fun onFailure(call: Call<TestResultResponse>, t: Throwable) {
+                    onResponse(false)
+                }
+            })
         }
         fun post(request: TestResultRequest, onResponse: (response: TestResultResponse) -> Unit) {
             getInstance().api.getResult(request).enqueue(object : Callback<TestResultResponse> {

@@ -6,23 +6,27 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
-import androidx.constraintlayout.widget.ConstraintLayout
+import kotlinx.android.synthetic.main.dialog_share.*
 import step.ahead.group.sugar.R
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class ShareDialog() : SupportBlurDialogFragment() {
+class ShareDialog : SupportBlurDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.dialog_share, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        close_btn.setOnClickListener {
+            dismiss()
+        }
+    }
     override fun isActionBarBlurred(): Boolean {
-        // Enable or disable the blur effect on the action bar.
-        // Disabled by default.
         return true
     }
 

@@ -6,12 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 import io.realm.RealmList
+import io.realm.RealmResults
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.models.TestResult
 
 
 class ReportAdapter(
-    private val results: RealmList<TestResult>,
+    private val results: RealmResults<TestResult>,
     val onClick: (result: TestResult) -> Unit
 ) : RecyclerView.Adapter<ReportAdapter.ViewHolder>() {
 
