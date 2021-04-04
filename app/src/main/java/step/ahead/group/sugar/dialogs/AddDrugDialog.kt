@@ -6,8 +6,12 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
-import androidx.constraintlayout.widget.ConstraintLayout
+import kotlinx.android.synthetic.main.add_drags_fragment.*
 import step.ahead.group.sugar.R
+import step.ahead.group.sugar.handlers.DoctorHandler
+import step.ahead.group.sugar.handlers.DrugHandler
+import step.ahead.group.sugar.models.Doctor
+import step.ahead.group.sugar.models.Drug
 
 
 /**
@@ -17,9 +21,18 @@ class AddDrugDialog() : SupportBlurDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.dialog_share, container, false)
+        return inflater.inflate(R.layout.add_drags_fragment, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        save_doctor.setOnClickListener {
+            val drug = Drug()
+            drug.name = name_doctor_input.text.toString()
+
+            DrugHandler.getInstance().save(drug)
+        }
+    }
     override fun isActionBarBlurred(): Boolean {
         // Enable or disable the blur effect on the action bar.
         // Disabled by default.

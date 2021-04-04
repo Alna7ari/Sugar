@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
 import kotlinx.android.synthetic.main.dialog_share.*
 import step.ahead.group.sugar.R
+import step.ahead.group.sugar.utils.ToastUtil
 
 
 /**
@@ -25,7 +26,11 @@ class ShareDialog : SupportBlurDialogFragment() {
         close_btn.setOnClickListener {
             dismiss()
         }
+        button.setOnClickListener {
+            ToastUtil(context, "تمت المشاركة بنجاح")
+        }
     }
+
     override fun isActionBarBlurred(): Boolean {
         return true
     }

@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.WindowManager
 import androidx.fragment.app.Fragment
 import github.com.st235.lib_expandablebottombar.ExpandableBottomBar
 import kotlinx.android.synthetic.main.activity_main.*
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("ReselectedListener", resources.getResourceEntryName(menuItem.itemId))
         }
 
+        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_NOTHING or WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN)
     }
 
 }

@@ -18,6 +18,7 @@ import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import kotlinx.android.synthetic.main.activity_main_fargment.*
 import step.ahead.group.sugar.R
+import step.ahead.group.sugar.handlers.DrugHandler
 import step.ahead.group.sugar.handlers.TestResultHandler
 import step.ahead.group.sugar.handlers.UserInfoHandler
 import step.ahead.group.sugar.libraries.sse.EventHandler
@@ -25,15 +26,18 @@ import step.ahead.group.sugar.libraries.sse.EventSource
 import step.ahead.group.sugar.libraries.sse.MessageEvent
 import step.ahead.group.sugar.models.TestResult
 import step.ahead.group.sugar.utils.BroadcastUtil
+import step.ahead.group.sugar.utils.StringUtils
 import step.ahead.group.sugar.utils.ToastUtil
 import step.ahead.group.sugar.webservices.Urls
 import step.ahead.group.sugar.webservices.WebService
+import java.math.RoundingMode
 
 
 class MainFragment : Fragment() {
 
     private val className = javaClass.name
     private var savedResult = TestResult()
+    private var isDisconnected = false
     private val header: Map<String, String> =
         mapOf(Pair("Authorization", "Basic QWhtZWQ6SGFnYXJLaGFkaWdhWm9sZmFaZWlhZA=="))
     private val url = Urls.MAIN_URL + "events"
@@ -62,7 +66,14 @@ class MainFragment : Fragment() {
         }
 
         override fun onError(e: Exception?) {
-            Log.d(className, "onError: ", e)
+            if (isDisconnected) return
+            activity!!.runOnUiThread {
+                try {
+                    onDisconnected(e?.message)
+                    isDisconnected = true
+                } catch (e: Exception) {
+                }
+            }
         }
     });
     private val notificationActionsReceiver = object : BroadcastReceiver() {
@@ -118,8 +129,14 @@ class MainFragment : Fragment() {
     }
 
     fun onConnected(data: String) {
+        isDisconnected = false
         Log.d(className, "onConnected: $data")
         waiting_result_text.text = "تم الاتصال بنجاح!"
+    }
+
+    fun onDisconnected(error: String?) {
+        Log.d(className, "onConnected: $error")
+        waiting_result_text.text = "في انتظار الاتصال بالجهاز"
     }
 
     fun onStripDisconnected(data: String) {
@@ -139,14 +156,24 @@ class MainFragment : Fragment() {
 
     fun onErrorResult(data: String) {
         Log.d(className, "onErrorResult: $data")
-        waiting_result_text.text = "قراءة غير صحيحة!"
-        result_textveiw.text = data
+        waiting_result_text.text = if (data == "ERR") "شريحة الفحص غير صالحة" else "قراءة غير صحيحة!"
+        val rounded = try {
+            data.toBigDecimal().setScale(2, RoundingMode.UP).toDouble()
+        } catch (e : Exception) {
+            StringUtils.format(data)
+        }
+        result_textveiw.text = rounded.toString()
     }
 
     fun onSuccessResult(data: String) {
         Log.d(className, "onSuccessResult: $data")
         waiting_result_text.text = "تمت القراءة بنجاح!"
-        result_textveiw.text = data
+        val rounded = try {
+            data.toBigDecimal().setScale(2, RoundingMode.UP).toDouble()
+        } catch (e : Exception) {
+            StringUtils.format(data)
+        }
+        result_textveiw.text = rounded.toString()
     }
 
     private fun saveResult() {
