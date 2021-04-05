@@ -1,5 +1,6 @@
 package step.ahead.group.sugar.activities
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,14 +13,14 @@ class SplashActivity : AppCompatActivity() {
 
     
     // وقت الانتظار قبل الانتقال بالملي ثانية
-    private val delayTime: Long = 500
+    private val delayTime: Long = 1500
     private val mRunnable: Runnable = Runnable {
         if (isFinishing) return@Runnable
-        var activity = SplashIntroActivity::class
+        var activity: Activity = SplashIntroActivity()
         // هنا عند تحقق هذا الشرط سينتقل المستخدم الى الواجهه الرئيسية ولان الواجهه ليست جاهزة جعلتة ينتقل لنفس الواجهه
-        if (UserInfoHandler.getInstance().isUserLoggedIn) activity = SplashIntroActivity::class
+        if (UserInfoHandler.getInstance().isUserLoggedIn) activity = MainActivity()
 
-        val intent = Intent(this, activity.java)
+        val intent = Intent(this, activity::class.java)
         startActivity(intent)
         finish()
     }

@@ -2,4 +2,11 @@
     <string name="app_name">Sugar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_main">الرئيسية</string>
+    <string name="show_more">المزيد</string>
+    <string name="cardveiw">Welcome to my First Cardveiw</string>
+    <string name="btn_name">Start Button</string>
+    <string name="notification">التنبيهات</string>
+    <string name="personal_info">الملف الشخصي</string>
+    <string name="reports">التقارير</string>
 </resources>

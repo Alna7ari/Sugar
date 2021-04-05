@@ -6,7 +6,7 @@ import io.realm.annotations.PrimaryKey
 open class UserInfo : RealmObject(){
 
     @PrimaryKey
-    var primery_key: Int = 1
+    var primeryKey: Int = 1
     var firstName: String = ""
     var lastName: String? = null
     var gender: String? = null
