@@ -34,6 +34,7 @@ class MoreFragment : Fragment() {
         // لاحظ انة تم تمرير فراجمينت الادوية ك باراميتر للدالة open
         more_drug_btn.setOnClickListener {
             FragmentUtils().open(activity, DrugFragment())
+            // test
         }
         // طبعا بتنسخ الاثنين الي فوق وتكررهم لكل الموجودين في صقحة المزيد مثل طبيبي ورياضتي وغيرها
         // امسح التعليقات هولا بعدما تكون فهمت ونفذت المهمة بعدها ارفعن
