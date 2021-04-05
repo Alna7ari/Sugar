@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d1ff"
+    android:layoutDirection="ltr">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:background="@drawable/custom_continar_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:text="طبيبي"
+            android:textColor="#333399"
+            android:textSize="22sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/imageView7"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_add_bg"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:gravity="center"
+            android:text="المزيد"
+            android:textColor="#333399"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01"
+            app:srcCompat="@drawable/delete_btn" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:background="@drawable/continar_add_bg"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7">
+
+            <ImageView
+                android:id="@+id/add_drags_btn2"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_add_bg"
+                android:paddingTop="15dp"
+                android:paddingBottom="12dp"
+                app:srcCompat="@drawable/add_btn" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/droid_arabic_kufi"
+                android:text="إضافة "
+                android:textColor="#d6d1ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:background="@drawable/custom_continar_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:layout_constraintVertical_bias="0.07999998">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:text="طعامي"
+            android:textColor="#333399"
+            android:textSize="22sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/imageView8"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_add_bg"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:gravity="center"
+            android:text="المزيد"
+            android:textColor="#333399"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01"
+            app:srcCompat="@drawable/delete_btn" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:background="@drawable/continar_add_bg"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7">
+
+            <ImageView
+                android:id="@+id/add_drags_btn3"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_add_bg"
+                android:paddingTop="15dp"
+                android:paddingBottom="12dp"
+                app:srcCompat="@drawable/add_btn" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/droid_arabic_kufi"
+                android:text="إضافة "
+                android:textColor="#d6d1ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:background="@drawable/custom_continar_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6"
+        app:layout_constraintVertical_bias="0.18">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:text="رياضتي"
+            android:textColor="#333399"
+            android:textSize="22sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/imageView10"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_add_bg"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:gravity="center"
+            android:text="المزيد"
+            android:textColor="#333399"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01"
+            app:srcCompat="@drawable/delete_btn" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:background="@drawable/continar_add_bg"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7">
+
+            <ImageView
+                android:id="@+id/add_drags_btn4"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_add_bg"
+                android:paddingTop="15dp"
+                android:paddingBottom="12dp"
+                app:srcCompat="@drawable/add_btn" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/droid_arabic_kufi"
+                android:text="إضافة "
+                android:textColor="#d6d1ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:background="@drawable/custom_continar_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:text="أدويتي"
+            android:textColor="#333399"
+            android:textSize="22sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/imageView9"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_add_bg"
+            android:fontFamily="@font/doid_abic_kufi_bold"
+            android:gravity="center"
+            android:text="المزيد"
+            android:textColor="#333399"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01"
+            app:srcCompat="@drawable/delete_btn" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:background="@drawable/continar_add_bg"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7">
+
+            <ImageView
+                android:id="@+id/add_drags_btn5"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_add_bg"
+                android:paddingTop="15dp"
+                android:paddingBottom="12dp"
+                app:srcCompat="@drawable/add_btn" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/droid_arabic_kufi"
+                android:text="إضافة "
+                android:textColor="#d6d1ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

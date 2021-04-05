@@ -54,7 +54,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout11"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="220dp"
         android:background="@drawable/custom_containar_main_result"
         app:layout_constraintBottom_toBottomOf="parent"

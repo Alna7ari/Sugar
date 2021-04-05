@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg2"
+    android:layoutDirection="ltr">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="370dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50"
+        app:layout_constraintVertical_bias="0.35000002" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doid_abic_kufi_bold"
+        android:text="تنبيهاتي "
+        android:textColor="#333399"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/continar_add_bg"
+        android:fontFamily="@font/doid_abic_kufi_bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="غير روتينك"
+        android:textColor="#d6d1ff"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView48"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12555555" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_continar_shape"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="27dp"
+        android:paddingBottom="10dp"
+        android:text="بعض التغيرات البسيطة في روتينك اليومي لتحسين مستوى السكر في الدم"
+        android:textColor="#5154a1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        app:layout_constraintVertical_bias="0.03000002" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView50"
+        app:layout_constraintEnd_toEndOf="@+id/textView50"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toTopOf="@+id/textView50"
+        app:layout_constraintVertical_bias="0.100000024"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+</androidx.constraintlayout.widget.ConstraintLayout>

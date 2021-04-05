@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".fragments.UserInfoFragment">
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="@font/doid_abic_kufi_bold"
+        android:text="هيا نتعرف ..."
+        android:textColor="#c7c3f5"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="319dp"
+        android:layout_marginLeft="319dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:text="ماهو اسمك الأول :"
+        android:textColor="#c7c3f5"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:text="ماهو عمرك :"
+        android:textColor="#c7c3f5"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/age_input"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#333399"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,6:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/next_btn_three"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/next_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,8:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age_input"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <EditText
+        android:id="@+id/first_name_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:gravity="start"
+        android:hint="اكتب اسمك هنا"
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        android:paddingTop="7dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="7dp"
+        android:textColor="#333399"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
