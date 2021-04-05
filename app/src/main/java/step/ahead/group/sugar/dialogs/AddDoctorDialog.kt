@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
-import androidx.constraintlayout.widget.ConstraintLayout
 import kotlinx.android.synthetic.main.add_doctors_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.handlers.DoctorHandler
@@ -27,7 +26,7 @@ class AddDoctorDialog() : SupportBlurDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         save_doctor.setOnClickListener {
             val doctor = Doctor()
-            doctor.name = name_doctor_input.text.toString()
+            doctor.name = name_drug_input.text.toString()
 
             DoctorHandler.getInstance().save(doctor)
         }

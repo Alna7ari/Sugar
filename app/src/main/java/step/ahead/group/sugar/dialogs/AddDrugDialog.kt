@@ -8,9 +8,7 @@ import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
 import kotlinx.android.synthetic.main.add_drags_fragment.*
 import step.ahead.group.sugar.R
-import step.ahead.group.sugar.handlers.DoctorHandler
 import step.ahead.group.sugar.handlers.DrugHandler
-import step.ahead.group.sugar.models.Doctor
 import step.ahead.group.sugar.models.Drug
 
 
@@ -28,7 +26,7 @@ class AddDrugDialog() : SupportBlurDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         save_doctor.setOnClickListener {
             val drug = Drug()
-            drug.name = name_doctor_input.text.toString()
+            drug.name = name_drug_input.text.toString()
 
             DrugHandler.getInstance().save(drug)
         }

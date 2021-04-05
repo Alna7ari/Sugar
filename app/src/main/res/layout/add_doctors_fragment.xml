@@ -156,7 +156,7 @@
             app:layout_constraintVertical_bias="0.012" />
 
         <EditText
-            android:id="@+id/name_doctor_input"
+            android:id="@+id/name_drug_input"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:background="@drawable/custom_text_bg2"

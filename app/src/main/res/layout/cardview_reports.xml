@@ -37,7 +37,7 @@
             app:layout_constraintVertical_bias="0.175" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/more_doctor_btn"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/custom_add_bg"
