@@ -119,7 +119,7 @@ class MainFragment : Fragment() {
                 notificationActionsReceiver,
                 IntentFilter(BroadcastUtil.TEST_RESULT_RECEIVED_ACTION)
             )
-            welcome_text.text = "مرحباً:  " + UserInfoHandler.getInstance().userInfo?.firstName
+            welcome_text.text = "مرحباً: " + UserInfoHandler.getInstance().userInfo?.firstName
             result_textveiw.text = TestResultHandler.getInstance().getLast.result.toString()
             //asyncCheck()
             eventSource.connect()
@@ -145,7 +145,7 @@ class MainFragment : Fragment() {
     }
 
     fun onStripConnected(data: String) {
-        waiting_result_text.text = "تم تركيب الشريحة بنجاح, في انتظار وضع الدم الان!"
+        waiting_result_text.text = "تم تركيب الشريحة بنجاح, في انتظار وضع عينة الدم الان!"
         Log.d(className, "onStripConnected: $data")
     }
 

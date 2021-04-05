@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/ic_baseline_dashboard_24"
+        text="الرئيسية" />
+
+    <tab
+        drawable="@drawable/ic_baseline_dashboard_24"
+        text="التنبيهات" />
+
+    <tab
+        drawable="@drawable/ic_baseline_dashboard_24"
+        text="اي حاجة" />
+
+    <tab
+        drawable="@drawable/ic_baseline_dashboard_24"
+        text="تمام" />
+
+    <tab
+        drawable="@drawable/ic_baseline_dashboard_24"
+        text="عنقلهم" />
+</tabs>
