@@ -85,7 +85,7 @@ class MainFragment : Fragment() {
                 // تجربة
             }
             if (from == BroadcastUtil.FROM_SMS) {
-
+                // ىوى
             }
         }
     }
