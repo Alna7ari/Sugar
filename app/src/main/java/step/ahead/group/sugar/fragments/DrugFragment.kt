@@ -19,7 +19,7 @@ class DrugFragment : MasterStuffFragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.my_drags_fragment, container, false)
     }
 
     override fun onResume() {
