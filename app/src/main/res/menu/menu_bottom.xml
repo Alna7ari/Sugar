@@ -18,7 +18,8 @@
         android:id="@+id/step.ahead.group.sugar.fragments.MainFragment"
         android:title="@string/menu_main"
         android:icon="@drawable/home"
-        app:exb_color="@color/selected_item" />
+        app:exb_color="@color/selected_item"
+        app:exb_badgeColor="#fa2"/>
 
     <item
         android:id="@+id/step.ahead.group.sugar.fragments.ReportFragment"
