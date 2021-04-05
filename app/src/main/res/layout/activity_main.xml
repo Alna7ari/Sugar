@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:layoutDirection="rtl"
     tools:context=".activities.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,10 +19,14 @@
     <github.com.st235.lib_expandablebottombar.ExpandableBottomBar
         android:id="@+id/expandable_bottom_bar"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
-        app:exb_backgroundColor="#333399"
-        app:exb_itemInactiveColor="#fff"
+        android:layout_height="70dp"
+        app:exb_backgroundColor="#c7c3f5"
+        app:exb_itemInactiveColor="#9D9FD8"
         app:exb_items="@menu/menu_bottom"
+        app:exb_transitionDuration="200"
+        app:exb_itemStyle="normal"
+        app:exb_elevation="300sp"
+        app:exb_itemBackgroundCornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

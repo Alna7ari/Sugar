@@ -82,10 +82,10 @@ class MainFragment : Fragment() {
             val message = intent.getStringExtra("message") ?: return
             val from = intent.getStringExtra("from")
             if (from == BroadcastUtil.FROM_ESP) {
-
+                // تجربة
             }
             if (from == BroadcastUtil.FROM_SMS) {
-
+                // ىوى
             }
         }
     }

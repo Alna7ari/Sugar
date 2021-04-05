@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/instractions_bg1">
+    android:background="@drawable/instractions_bg1"
+    android:layoutDirection="ltr">
 
     <TextView
         android:id="@+id/textView4"
@@ -45,7 +46,7 @@
         app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.44" />
 
     <TextView
         android:id="@+id/textView7"
@@ -60,7 +61,7 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.006" />
+        app:layout_constraintVertical_bias="0.050000012" />
 
     <TextView
         android:id="@+id/textView8"
@@ -121,9 +122,9 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_text_bg"
         android:fontFamily="sans-serif-black"
-        android:paddingLeft="15dp"
+        android:paddingLeft="10dp"
         android:paddingTop="3dp"
-        android:paddingRight="15dp"
+        android:paddingRight="10dp"
         android:paddingBottom="3dp"
         android:text="ZKH00100"
         android:textColor="#d6d1ff"
@@ -131,10 +132,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.060000002" />
 
     <ImageView
         android:id="@+id/next_but_first"

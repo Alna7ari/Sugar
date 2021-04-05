@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg1"
-    tools:context=".fragments.UserInfoFragment">
+    tools:context=".fragments.UserInfoFragment"
+    android:layoutDirection="ltr">
 
 
     <TextView
@@ -29,17 +30,14 @@
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="319dp"
-        android:layout_marginLeft="319dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
         android:fontFamily="@font/droid_arabic_kufi"
         android:text="ماهو اسمك الأول :"
         android:textColor="#c7c3f5"
         android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30"
         app:layout_constraintVertical_bias="0.102" />
@@ -47,19 +45,15 @@
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="310dp"
-        android:layout_marginLeft="310dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/droid_arabic_kufi"
         android:text="ماهو عمرك :"
         android:textColor="#c7c3f5"
         android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="h,3:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31"
         app:layout_constraintVertical_bias="0.331" />
@@ -82,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView32"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <ImageView
         android:id="@+id/next_btn_three"
@@ -102,21 +96,19 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_input"
         android:ems="10"
-        android:fontFamily="@font/droid_arabic_kufi"
+        android:fontFamily="@font/doid_abic_kufi_bold"
         android:gravity="start"
-        android:hint="اكتب اسمك هنا"
         android:inputType="textPersonName"
         android:paddingLeft="25dp"
         android:paddingTop="7dp"
         android:paddingRight="25dp"
         android:paddingBottom="7dp"
         android:textColor="#333399"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31"
-        app:layout_constraintVertical_bias="0.100000024" />
+        app:layout_constraintVertical_bias="0.07999998" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
