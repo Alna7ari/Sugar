@@ -136,10 +136,12 @@ class MainFragment : Fragment() {
 
     }
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     fun onConnected(data: String) {
         isDisconnected = false
         Log.d(className, "onConnected: $data")
         waiting_result_text.text = "تم الاتصال بنجاح!"
+        status_led.background = resources.getDrawable(R.drawable.custom_status_shape_online)
     }
 
     fun onDisconnected(error: String?) {
