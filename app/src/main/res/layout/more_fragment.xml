@@ -118,7 +118,7 @@
             app:layout_constraintVertical_bias="0.083" />
 
         <TextView
-            android:id="@+id/imageView8"
+            android:id="@+id/more_food_btn"
             android:layout_width="75dp"
             android:layout_height="50dp"
             android:background="@drawable/custom_add_bg"
@@ -149,7 +149,7 @@
             app:layout_constraintVertical_bias="0.7">
 
             <ImageView
-                android:id="@+id/add_drags_btn3"
+                android:id="@+id/add_food_btn"
                 android:layout_width="55dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -202,7 +202,7 @@
             app:layout_constraintVertical_bias="0.083" />
 
         <TextView
-            android:id="@+id/imageView10"
+            android:id="@+id/more_sport_btn"
             android:layout_width="75dp"
             android:layout_height="50dp"
             android:background="@drawable/custom_add_bg"
@@ -233,7 +233,7 @@
             app:layout_constraintVertical_bias="0.7">
 
             <ImageView
-                android:id="@+id/add_drags_btn4"
+                android:id="@+id/add_sport_btn"
                 android:layout_width="55dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"

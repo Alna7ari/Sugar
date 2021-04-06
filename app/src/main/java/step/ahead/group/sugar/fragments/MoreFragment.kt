@@ -9,6 +9,8 @@ import kotlinx.android.synthetic.main.more_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.dialogs.AddDoctorDialog
 import step.ahead.group.sugar.dialogs.AddDrugDialog
+import step.ahead.group.sugar.dialogs.AddFoodDialog
+import step.ahead.group.sugar.dialogs.AddSportDialog
 import step.ahead.group.sugar.utils.FragmentUtils
 
 
@@ -47,6 +49,24 @@ class MoreFragment : Fragment() {
         // لاحظ انة تم تمرير فراجمينت الادوية ك باراميتر للدالة open
         more_doctor_btn.setOnClickListener {
             FragmentUtils().open(activity, DoctorFragment())
+        }
+
+
+        add_food_btn.setOnClickListener {
+            AddFoodDialog().show(requireActivity().supportFragmentManager, "drug")
+        }
+
+        more_food_btn.setOnClickListener {
+            FragmentUtils().open(activity, FoodFragment())
+        }
+
+
+        add_sport_btn.setOnClickListener {
+            AddSportDialog().show(requireActivity().supportFragmentManager, "drug")
+        }
+
+        more_sport_btn.setOnClickListener {
+            FragmentUtils().open(activity, SportFragment())
         }
 
         super.onViewCreated(view, savedInstanceState)
