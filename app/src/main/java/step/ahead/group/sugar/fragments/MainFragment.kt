@@ -18,6 +18,7 @@ import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import kotlinx.android.synthetic.main.activity_main_fargment.*
 import step.ahead.group.sugar.R
+import step.ahead.group.sugar.dialogs.AddResultDialog
 import step.ahead.group.sugar.handlers.DrugHandler
 import step.ahead.group.sugar.handlers.TestResultHandler
 import step.ahead.group.sugar.handlers.UserInfoHandler
@@ -113,6 +114,7 @@ class MainFragment : Fragment() {
         }
         add_result_btn.setOnClickListener {
             // اين ال layout حق الاضافة؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟
+            AddResultDialog().show(requireActivity().supportFragmentManager, "addResult")
         }
         super.onViewCreated(view, savedInstanceState)
     }
