@@ -33,7 +33,6 @@ class AddDrugDialog : SupportBlurDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         close_btn.setOnClickListener { dismiss() }
-        if (context == null) Log.d(javaClass.name, "context null")
         form {
             input(name) {
                 isNotEmpty().description("لايمكن ان تكون الاسم فارغا")
@@ -80,3 +79,4 @@ class AddDrugDialog : SupportBlurDialogFragment() {
     }
 
 }
+

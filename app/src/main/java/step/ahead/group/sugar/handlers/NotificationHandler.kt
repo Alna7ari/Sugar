@@ -2,18 +2,15 @@ package step.ahead.group.sugar.handlers
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import step.ahead.group.sugar.models.UserInfo
+import io.realm.RealmResults
+import step.ahead.group.sugar.models.Notification
 
 class NotificationHandler
 private constructor() {
-    // define realm
     private val realm: Realm
 
-    val isUserLoggedIn: Boolean
-        get() = realm.where(UserInfo::class.java).findFirst() != null
-
-    val userInfo: UserInfo?
-        get() = realm.where(UserInfo::class.java).findFirst()
+    val getAll: RealmResults<Notification>?
+        get() = realm.where(Notification::class.java).findAll()
 
     init {
         val realmConfig = RealmConfiguration.Builder()
@@ -24,44 +21,32 @@ private constructor() {
 
     // login user take user and add it to realm
 
-    fun setInfo(user: UserInfo) {
-
-        if (realm.where(UserInfo::class.java).findFirst() == null) {
-
-            realm.executeTransaction { realm -> realm.copyToRealm(user) }
-
-        } else {
-            logout()
-            setInfo(user)
-        }
-
-
-    }
-
-    private fun logout() {
+    fun save(notification: Notification) {
         realm.executeTransaction { realm ->
-            realm.where(UserInfo::class.java).findAll().deleteAllFromRealm()
+            val maxId = realm.where(Notification::class.java).max("id") ?: 1
+            val nextId = maxId.toInt() + 1
+            notification.id = nextId
+            realm.copyToRealm(notification)
         }
-        //realm.executeTransaction { realm -> realm.delete(UserInfo::class.java) }
     }
-    
-    
+
+    fun delete(id: Int) {
+        realm.executeTransaction { realm ->
+            realm.where(Notification::class.java).equalTo("id", id).findAll().deleteAllFromRealm()
+        }
+    }
+
+
     companion object {
         // define single instance
         private var instance: NotificationHandler? = null
-
-        // get singletone from LoginHelper
-        fun getInstance(overrideInstanse: Boolean = false): NotificationHandler {
-            if (overrideInstanse) {
-                return NotificationHandler()
-            }
+        fun getInstance(): NotificationHandler {
             if (instance == null) {
                 instance = NotificationHandler()
             }
             return instance as NotificationHandler
         }
 
-        // get new Instance (new Object) from this class
         fun newInstance(): NotificationHandler {
             return NotificationHandler()
         }
@@ -69,4 +54,3 @@ private constructor() {
 
 
 }
-
