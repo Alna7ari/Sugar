@@ -92,7 +92,7 @@
             app:layout_constraintVertical_bias="0.587" />
 
         <EditText
-            android:id="@+id/allowed_food_input"
+            android:id="@+id/allawed_food"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:layout_marginTop="15dp"
@@ -113,7 +113,7 @@
             app:layout_constraintVertical_bias="0.289" />
 
         <EditText
-            android:id="@+id/denied_food_input"
+            android:id="@+id/denaid_food"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:background="@drawable/custom_text_bg2"
@@ -135,7 +135,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/save_drags"
+        android:id="@+id/save_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_button"

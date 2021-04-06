@@ -135,7 +135,7 @@
             app:layout_constraintVertical_bias="0.564" />
 
         <EditText
-            android:id="@+id/strength"
+            android:id="@+id/review_time"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:layout_marginTop="15dp"
@@ -176,7 +176,7 @@
             app:layout_constraintVertical_bias="0.055" />
 
         <EditText
-            android:id="@+id/use_count"
+            android:id="@+id/number_doc"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:background="@drawable/custom_text_bg2"
@@ -196,7 +196,7 @@
             app:layout_constraintVertical_bias="0.11" />
 
         <EditText
-            android:id="@+id/use_time"
+            android:id="@+id/email_doc"
             android:layout_width="185dp"
             android:layout_height="35dp"
             android:background="@drawable/custom_text_bg2"

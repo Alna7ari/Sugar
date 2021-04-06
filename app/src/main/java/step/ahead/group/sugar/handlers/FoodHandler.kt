@@ -2,11 +2,9 @@ package step.ahead.group.sugar.handlers
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import io.realm.RealmList
 import io.realm.RealmResults
-import step.ahead.group.sugar.models.Doctor
 import step.ahead.group.sugar.models.Food
-import step.ahead.group.sugar.models.UserInfo
+
 
 class FoodHandler
 private constructor() {

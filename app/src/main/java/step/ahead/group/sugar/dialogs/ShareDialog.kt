@@ -18,7 +18,7 @@ class ShareDialog : SupportBlurDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.dialog_share, container, false)
+        return inflater.inflate(R.layout.share_reports_fragment, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -1,10 +1,10 @@
 package step.ahead.group.sugar.handlers
 
+import android.view.View
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import io.realm.RealmResults
 import step.ahead.group.sugar.models.Doctor
-import step.ahead.group.sugar.models.TestResult
 
 class DoctorHandler
 private constructor() {
