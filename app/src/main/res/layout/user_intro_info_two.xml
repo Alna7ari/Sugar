@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/more_sport_btn"
         android:layout_width="300dp"
         android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,7 +44,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/more_sport_btn"
         app:layout_constraintVertical_bias="0.050000012" />
 
     <TextView
