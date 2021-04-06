@@ -25,6 +25,7 @@ class DrugFragment : MasterStuffFragment() {
     override fun onResume() {
         super.onResume()
         //show()
+        // اين الريسايكلر في هذا الفراجمنت؟؟؟
     }
     private fun show() {
         try {

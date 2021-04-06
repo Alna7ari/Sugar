@@ -3,6 +3,7 @@ package step.ahead.group.sugar.handlers
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import io.realm.RealmResults
+import step.ahead.group.sugar.models.Drug
 import step.ahead.group.sugar.models.TestResult
 
 class TestResultHandler
@@ -25,7 +26,12 @@ private constructor() {
     // login user take user and add it to realm
 
     fun save(testResult: TestResult) {
-        realm.executeTransaction { realm -> realm.copyToRealm(testResult) }
+        realm.executeTransaction { realm ->
+            val maxId = realm.where(TestResult::class.java).max("id") ?: 1
+            val nextId = maxId.toInt() + 1
+            testResult.id = nextId
+            realm.copyToRealm(testResult)
+        }
     }
 
     fun delete(id: Int) {

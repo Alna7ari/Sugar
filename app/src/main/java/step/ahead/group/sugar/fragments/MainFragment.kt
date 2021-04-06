@@ -57,22 +57,26 @@ class MainFragment : Fragment() {
         override fun onMessage(event: MessageEvent) {
             val method = event.event
             val data = event.data
+            try {
             activity!!.runOnUiThread {
-                try {
+
                     this@MainFragment.funMap[method]?.call(data)
-                } catch (e: Exception) {
-                }
+
+            }
+            } catch (e: Exception) {
             }
         }
 
         override fun onError(e: Exception?) {
             if (isDisconnected) return
-            activity!!.runOnUiThread {
-                try {
+            try {
+                activity!!.runOnUiThread {
+
                     onDisconnected(e?.message)
                     isDisconnected = true
-                } catch (e: Exception) {
+
                 }
+            } catch (e: Exception) {
             }
         }
     });
@@ -107,8 +111,10 @@ class MainFragment : Fragment() {
             result_textveiw.text = "0.0"
             savedResult = TestResult()
         }
+        add_result_btn.setOnClickListener {
+            // اين ال layout حق الاضافة؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟
+        }
         super.onViewCreated(view, savedInstanceState)
-        5
     }
 
     @SuppressLint("SetTextI18n")
@@ -156,10 +162,11 @@ class MainFragment : Fragment() {
 
     fun onErrorResult(data: String) {
         Log.d(className, "onErrorResult: $data")
-        waiting_result_text.text = if (data == "ERR") "شريحة الفحص غير صالحة" else "قراءة غير صحيحة!"
+        waiting_result_text.text =
+            if (data == "ERR") "شريحة الفحص غير صالحة" else "قراءة غير صحيحة!"
         val rounded = try {
             data.toBigDecimal().setScale(2, RoundingMode.UP).toDouble()
-        } catch (e : Exception) {
+        } catch (e: Exception) {
             StringUtils.format(data)
         }
         result_textveiw.text = rounded.toString()
@@ -170,7 +177,7 @@ class MainFragment : Fragment() {
         waiting_result_text.text = "تمت القراءة بنجاح!"
         val rounded = try {
             data.toBigDecimal().setScale(2, RoundingMode.UP).toDouble()
-        } catch (e : Exception) {
+        } catch (e: Exception) {
             StringUtils.format(data)
         }
         result_textveiw.text = rounded.toString()

@@ -24,9 +24,9 @@ class AddDoctorDialog() : SupportBlurDialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        save_doctor.setOnClickListener {
+        save_btn.setOnClickListener {
             val doctor = Doctor()
-            doctor.name = name_drug_input.text.toString()
+            doctor.name = name.text.toString()
 
             DoctorHandler.getInstance().save(doctor)
         }
