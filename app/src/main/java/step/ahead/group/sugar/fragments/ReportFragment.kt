@@ -32,14 +32,15 @@ class ReportFragment : Fragment() {
             ShareDialog().show(requireActivity().supportFragmentManager, "share")
         }
         super.onViewCreated(view, savedInstanceState)
+        // هذا كيف بتعرض المحفوظ في الريسايكلر ماتحت هذا وكذلك دالة show مع تغيير المطلوب
         val reports = TestResultHandler.getInstance().getAll
         if (reports.isNullOrEmpty()) {
             ToastUtil(context, "لايوجد اي تقارير!");
             return
         }
-        showReports(reports)
+        show(reports)
     }
-    private fun showReports(reports: RealmResults<TestResult>) {
+    private fun show(reports: RealmResults<TestResult>) {
         try {
             recyclar_view_reports!!.layoutManager =
                 LinearLayoutManager(requireActivity(), RecyclerView.VERTICAL, false)

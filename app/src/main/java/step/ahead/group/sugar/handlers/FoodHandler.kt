@@ -4,6 +4,7 @@ import io.realm.Realm
 import io.realm.RealmConfiguration
 import io.realm.RealmList
 import io.realm.RealmResults
+import step.ahead.group.sugar.models.Doctor
 import step.ahead.group.sugar.models.Food
 import step.ahead.group.sugar.models.UserInfo
 
@@ -21,8 +22,13 @@ private constructor() {
         realm = Realm.getInstance(realmConfig)
     }
 
-    fun save(drug: Food) {
-        realm.executeTransaction { realm -> realm.copyToRealm(drug) }
+    fun save(food: Food) {
+        realm.executeTransaction { realm ->
+            val maxId = realm.where(Food::class.java).max("id") ?: 1
+            val nextId = maxId.toInt() + 1
+            food.id = nextId
+            realm.copyToRealm(food)
+        }
     }
 
     fun delete(id: Int) {

@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.my_drags_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.adapters.DrugAdapter
+import step.ahead.group.sugar.dialogs.AddDrugDialog
 import step.ahead.group.sugar.handlers.DrugHandler
 
 
@@ -22,9 +24,16 @@ class DrugFragment : MasterStuffFragment() {
         return inflater.inflate(R.layout.my_drags_fragment, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        add_btn.setOnClickListener {
+            AddDrugDialog().show(requireActivity().supportFragmentManager, "drug")
+        }
+    }
     override fun onResume() {
         super.onResume()
         //show()
+        // اين الريسايكلر في هذا الفراجمنت؟؟؟
     }
     private fun show() {
         try {

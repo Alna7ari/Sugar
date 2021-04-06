@@ -19,6 +19,8 @@ class ReportAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, isActive: Int): ViewHolder {
 
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_report, parent, false)
+        // اين الكروووووووووووووووووووووووووووووت
+        // ولا كرت جاهز لاحق التقارير ولاغيرة
 
         return ViewHolder(view)
     }

@@ -6,7 +6,7 @@ import io.realm.annotations.PrimaryKey
 open class TestResult : RealmObject(){
 
     @PrimaryKey
-    var primeryKey: Int = 1
+    var id: Int = 1
     var result: Double? = null
     var type: String? = null
     var updatedAt: Long = 0

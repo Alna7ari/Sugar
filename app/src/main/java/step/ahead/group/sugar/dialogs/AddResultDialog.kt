@@ -4,38 +4,43 @@ package step.ahead.group.sugar.dialogs
 import android.graphics.Point
 import android.os.Bundle
 import android.view.*
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import fr.tvbarthel.lib.blurdialogfragment.SupportBlurDialogFragment
-import kotlinx.android.synthetic.main.add_doctors_fragment.*
+import androidx.constraintlayout.widget.ConstraintLayout
+import com.afollestad.vvalidator.form
+import kotlinx.android.synthetic.main.dialog_add_result.*
 import step.ahead.group.sugar.R
-import step.ahead.group.sugar.handlers.DoctorHandler
-import step.ahead.group.sugar.models.Doctor
+import step.ahead.group.sugar.handlers.TestResultHandler
+import step.ahead.group.sugar.models.TestResult
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class AddDoctorDialog() : SupportBlurDialogFragment() {
+class AddResultDialog() : SupportBlurDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.add_doctors_fragment, container, false)
+        return inflater.inflate(R.layout.dialog_add_result, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        save_btn.setOnClickListener {
-            val doctor = Doctor()
-            doctor.name = name.text.toString()
-
-            DoctorHandler.getInstance().save(doctor)
+        form {
+            input(result) {
+                isNumber().greaterThan(30).description("قيمة خاطئة")
+            }
+            submitWith(save_btn) {
+                val testResult = TestResult()
+                testResult.result = result.text.toString().toDoubleOrNull()
+                testResult.createdAt = System.currentTimeMillis() / 1000
+                TestResultHandler.getInstance().save(testResult)
+                Toast.makeText(context, "تم الحفظ بنجاح!!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
-    override fun isActionBarBlurred(): Boolean {
-        // Enable or disable the blur effect on the action bar.
-        // Disabled by default.
-        return true
-    }
+    override fun isActionBarBlurred(): Boolean { return true }
 
     override fun onResume() {
         super.onResume()

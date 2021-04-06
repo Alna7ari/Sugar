@@ -30,7 +30,7 @@ class MoreFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // هنانستمع لزر اضفة الدواء ونفتح الديالوج عند الضغط
-        add_drags_btn.setOnClickListener {
+        add_btn.setOnClickListener {
             AddDrugDialog().show(requireActivity().supportFragmentManager, "drug")
         }
         // هنا نستمع لزر المزيد ونفتح فراجمينت الادوية
