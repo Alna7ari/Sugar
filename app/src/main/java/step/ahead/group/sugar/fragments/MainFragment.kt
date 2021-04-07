@@ -16,6 +16,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import cn.pedant.SweetAlert.SweetAlertDialog
 import kotlinx.android.synthetic.main.activity_main_fargment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.dialogs.AddResultDialog
@@ -90,7 +91,18 @@ class MainFragment : Fragment() {
                 // تجربة
             }
             if (from == BroadcastUtil.FROM_SMS) {
-                // ىوى
+                SweetAlertDialog(activity, SweetAlertDialog.SUCCESS_TYPE)
+                    .setTitleText("وصلت قراءة من sms بقيمة: $message هل تريد حفظها؟")
+                    .setConfirmText("حفظ")
+                    .setCancelText("الغاء")
+                    .setConfirmClickListener {
+                        saveResult(message.toDoubleOrNull())
+                        it.dismissWithAnimation()
+                    }
+                    .setCancelClickListener {
+                        it.dismissWithAnimation()
+                    }
+                    .show()
             }
         }
     }
@@ -106,7 +118,8 @@ class MainFragment : Fragment() {
     @SuppressLint("ShowToast")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         save_btn.setOnClickListener {
-            saveResult()
+            val result = result_textveiw.text.toString().toDoubleOrNull()
+            saveResult(result)
         }
         cancel_btn.setOnClickListener {
             result_textveiw.text = "0.0"
@@ -187,8 +200,7 @@ class MainFragment : Fragment() {
         result_textveiw.text = rounded.toString()
     }
 
-    private fun saveResult() {
-        val result = result_textveiw.text.toString().toDoubleOrNull()
+    private fun saveResult(result: Double?) {
         if (result == null || result < 10) {
             Toast.makeText(context, "لايمكن حفظ قيمة غير صحيحة!", Toast.LENGTH_SHORT).show()
             return
