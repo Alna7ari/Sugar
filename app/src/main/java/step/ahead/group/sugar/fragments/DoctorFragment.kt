@@ -7,9 +7,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.my_doctor_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.adapters.DoctorAdapter
 import step.ahead.group.sugar.handlers.DoctorHandler
+import step.ahead.group.sugar.utils.FragmentUtils
 
 
 class DoctorFragment : MasterStuffFragment() {
@@ -24,6 +26,12 @@ class DoctorFragment : MasterStuffFragment() {
 
     override fun onResume() {
         super.onResume()
+        // كود الرجوع لصفحة المزيد
+        // ركز على ايدي زر الخروج ووحدة في كل الصفحات افضل
+        // من هنا ابدا النسخ
+        close_btn.setOnClickListener {
+            FragmentUtils().open(activity, MoreFragment())
+        }
         //show()
     }
     private fun show() {

@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.provider.Telephony
 import android.telephony.SmsMessage
+import android.util.Log
 import step.ahead.group.sugar.utils.BroadcastUtil
 
 
@@ -31,13 +32,13 @@ class SmsListeners : BroadcastReceiver() {
                 messagesBody += message.messageBody;
             }
         }
-
+        Log.d(javaClass.name, messagesBody)
         if (! messagesBody.contains(messageKeyWord)) return
-
+        Log.d(javaClass.name, "done")
         // من هنا نبدا بمعالجة الرسالة واخذ السطر المطلوب ثم عمل حدث بها ليستقبلها
         val result = messagesBody.substringAfter("level:").substringBefore("mg/dl").replace(" ", "").toDoubleOrNull() ?: return
-
-        
+        Log.d(javaClass.name, "result: $messagesBody")
+        Log.d(javaClass.name, "result: $result")
         BroadcastUtil.sendEvent(context, result.toString())
         
     }
