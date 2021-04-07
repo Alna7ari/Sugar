@@ -5,9 +5,9 @@
 5    android:versionName="1.1" >
 6
 7    <uses-sdk android:minSdkVersion="9" />
-7-->/home/Alna7ari/Android/Sugar/sweetAlertDialog/src/main/AndroidManifest.xml
+7-->C:\Users\Z00100D\AndroidStudioProjects\SugarPlusFinal\sweetAlertDialog\src\main\AndroidManifest.xml
 8
 9    <application />
-9-->/home/Alna7ari/Android/Sugar/sweetAlertDialog/src/main/AndroidManifest.xml:7:1-16
+9-->C:\Users\Z00100D\AndroidStudioProjects\SugarPlusFinal\sweetAlertDialog\src\main\AndroidManifest.xml:7:1-16
 10
 11</manifest>

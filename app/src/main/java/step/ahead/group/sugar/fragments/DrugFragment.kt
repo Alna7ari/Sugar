@@ -7,11 +7,15 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.my_doctor_fragment.*
 import kotlinx.android.synthetic.main.my_drags_fragment.*
+import kotlinx.android.synthetic.main.my_drags_fragment.add_btn
+import kotlinx.android.synthetic.main.my_drags_fragment.close_btn
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.adapters.DrugAdapter
 import step.ahead.group.sugar.dialogs.AddDrugDialog
 import step.ahead.group.sugar.handlers.DrugHandler
+import step.ahead.group.sugar.utils.FragmentUtils
 
 
 class DrugFragment : MasterStuffFragment() {
@@ -28,6 +32,9 @@ class DrugFragment : MasterStuffFragment() {
         super.onViewCreated(view, savedInstanceState)
         add_btn.setOnClickListener {
             AddDrugDialog().show(requireActivity().supportFragmentManager, "drug")
+        }
+        close_btn.setOnClickListener {
+            FragmentUtils().open(activity, MoreFragment())
         }
     }
     override fun onResume() {

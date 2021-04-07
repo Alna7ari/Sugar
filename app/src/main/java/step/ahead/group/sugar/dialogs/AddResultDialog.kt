@@ -22,7 +22,7 @@ class AddResultDialog() : SupportBlurDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.dialog_add_result, container, false)
+        return inflater.inflate(R.layout.add_result_dailog, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
