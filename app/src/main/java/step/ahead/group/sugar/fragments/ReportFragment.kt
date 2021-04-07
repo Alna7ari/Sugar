@@ -47,8 +47,11 @@ class ReportFragment : Fragment() {
         } catch (ex: KotlinNullPointerException) { return }
 
         val adapter = ReportAdapter(reports){
-
+            TestResultHandler.getInstance().delete(it.id)
+            ToastUtil(context, "تم الحذف بنجاح!!")
+            it.deleteFromRealm()
         }
         recyclar_view_reports.adapter = adapter
     }
+
 }
