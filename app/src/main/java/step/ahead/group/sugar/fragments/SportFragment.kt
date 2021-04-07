@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_main.*
-import kotlinx.android.synthetic.main.my_drags_fragment.*
+import kotlinx.android.synthetic.main.my_sports_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.adapters.SportAdapter
 import step.ahead.group.sugar.dialogs.AddDrugDialog
@@ -39,7 +38,7 @@ class SportFragment : MasterStuffFragment() {
         super.onResume()
         //show()
     }
-    private fun show() {
+    /*private fun show() {
         try {
             recycler_view!!.layoutManager =
                 LinearLayoutManager(requireActivity(), RecyclerView.VERTICAL, false)
@@ -53,5 +52,5 @@ class SportFragment : MasterStuffFragment() {
             instance.delete(it.id)
         }
         recycler_view.adapter = adapter
-    }
+    }*/
 }
