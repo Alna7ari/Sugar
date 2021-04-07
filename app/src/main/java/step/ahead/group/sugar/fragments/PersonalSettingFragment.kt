@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.profie_fragment.*
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.handlers.UserInfoHandler
+import step.ahead.group.sugar.utils.FragmentUtils
 
 
 class PersonalSettingFragment : Fragment() {
@@ -27,5 +28,8 @@ class PersonalSettingFragment : Fragment() {
 
         first_name.text = Editable.Factory.getInstance().newEditable(user.firstName)
         age.text = Editable.Factory.getInstance().newEditable(user.age.toString())
+        close_btn.setOnClickListener {
+            FragmentUtils().open(activity, MainFragment())
+        }
     }
 }
