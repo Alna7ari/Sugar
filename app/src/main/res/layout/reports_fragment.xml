@@ -42,7 +42,7 @@
         android:fontFamily="@font/doid_abic_kufi_bold"
         android:text="سجلات فحص السكر"
         android:textColor="#333399"
-        android:textSize="30sp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="h,5:1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +76,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="370dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/custom_continar_shape"
         app:layout_constraintBottom_toTopOf="@+id/recyclar_view_reports"
         app:layout_constraintEnd_toEndOf="parent"

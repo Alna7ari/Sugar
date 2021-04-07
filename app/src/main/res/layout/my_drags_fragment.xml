@@ -74,68 +74,86 @@
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout10"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="380dp"
+        android:layout_height="480dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/hint"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.100000024"
-            app:srcCompat="@drawable/medication_empty" />
+            app:layout_constraintVertical_bias="0.100000024">
 
-        <TextView
-            android:id="@+id/textView41"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/doid_abic_kufi_bold"
-            android:gravity="center"
-            android:text="أضف دواء"
-            android:textColor="#333399"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.100000024"
+                app:srcCompat="@drawable/medication_empty" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/doid_abic_kufi_bold"
+                android:gravity="center"
+                android:text="أضف دواء"
+                android:textColor="#333399"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17"
+                app:layout_constraintVertical_bias="0.100000024" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="360dp"
+                android:layout_height="30dp"
+                android:background="@drawable/custom_info_bg"
+                android:fontFamily="@font/droid_arabic_kufi"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="ضع قائمة بأدويتك اليومية, للأستفادة من التطبيق"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView42"
+                app:layout_constraintHorizontal_bias="0.971"
+                app:layout_constraintStart_toStartOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView41"
+                app:srcCompat="@drawable/info" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView17"
-            app:layout_constraintVertical_bias="0.100000024" />
-
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="360dp"
-            android:layout_height="30dp"
-            android:background="@drawable/custom_info_bg"
-            android:fontFamily="@font/droid_arabic_kufi"
-            android:gravity="center"
-            android:paddingRight="20dp"
-            android:text="ضع قائمة بأدويتك اليومية, للأستفادة من التطبيق"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView41" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/textView42"
-            app:layout_constraintHorizontal_bias="0.971"
-            app:layout_constraintStart_toStartOf="@+id/textView42"
-            app:layout_constraintTop_toBottomOf="@+id/textView41"
-            app:srcCompat="@drawable/info" />
+            app:layout_constraintTop_toBottomOf="@+id/hint" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

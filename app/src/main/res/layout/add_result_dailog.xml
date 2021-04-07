@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_bg2">
+    android:background="@drawable/custom_continar_shape">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="350dp"
-        android:layout_height="270dp"
+        android:layout_height="300dp"
         android:background="@drawable/custom_continar_shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,10 +36,12 @@
             android:layout_height="wrap_content"
             android:background="@drawable/custom_add_bg"
             android:ems="10"
-            android:fontFamily="@font/droid_arabic_kufi"
+            android:fontFamily="@font/doid_abic_kufi_bold"
             android:gravity="center"
             android:inputType="number"
             android:padding="10dp"
+            android:textColor="#333399"
+            android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

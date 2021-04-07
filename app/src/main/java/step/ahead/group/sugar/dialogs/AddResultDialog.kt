@@ -37,6 +37,7 @@ class AddResultDialog() : SupportBlurDialogFragment() {
                 testResult.createdAt = System.currentTimeMillis() / 1000
                 TestResultHandler.getInstance().save(testResult)
                 Toast.makeText(context, "تم الحفظ بنجاح!!", Toast.LENGTH_SHORT).show()
+                dismiss()
             }
         }
     }
@@ -53,8 +54,8 @@ class AddResultDialog() : SupportBlurDialogFragment() {
         val width = size.x
         val height = size.y
 
-        val heightPercentage = (height * 0.95).toInt() // ConstraintLayout.LayoutParams.WRAP_CONTENT
-        window.setLayout((width * 0.95).toInt(), heightPercentage)
+        val heightPercentage = (height * 0.40).toInt() // ConstraintLayout.LayoutParams.WRAP_CONTENT
+        window.setLayout((width * 0.90).toInt(), heightPercentage)
         window.setGravity(Gravity.CENTER)
     }
 
