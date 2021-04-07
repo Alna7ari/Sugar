@@ -49,7 +49,7 @@ class ReportFragment : Fragment() {
         val adapter = ReportAdapter(reports){
             TestResultHandler.getInstance().delete(it.id)
             ToastUtil(context, "تم الحذف بنجاح!!")
-            it.deleteFromRealm()
+            //it.deleteFromRealm()
         }
         recyclar_view_reports.adapter = adapter
     }

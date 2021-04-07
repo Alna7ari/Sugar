@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.037" />
 
     <EditText
-        android:id="@+id/textView24"
+        android:id="@+id/first_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -225,11 +225,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/first_name"
         app:layout_constraintVertical_bias="0.06999999" />
 
     <EditText
-        android:id="@+id/textView26"
+        android:id="@+id/age"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="210dp"
@@ -274,7 +274,7 @@
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/age"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19"

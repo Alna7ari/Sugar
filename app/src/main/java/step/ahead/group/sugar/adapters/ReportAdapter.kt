@@ -1,6 +1,5 @@
 package step.ahead.group.sugar.adapters
 
-import android.opengl.Visibility
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,8 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-
-import io.realm.RealmList
 import io.realm.RealmResults
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.models.TestResult
@@ -23,7 +20,11 @@ class ReportAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, isActive: Int): ViewHolder {
 
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.cardview_report, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(
+            R.layout.cardview_report,
+            parent,
+            false
+        )
 
         return ViewHolder(view)
     }
@@ -43,9 +44,13 @@ class ReportAdapter(
         holder.time.text = DateUtil.getDate(result?.createdAt)
         holder.state.text = if (testResult < 60) "منخفض جدا" else if (testResult < 80) "منخفض" else if (testResult < 120) "جيدة" else "مرتفعة"
         holder.removeButton.setOnClickListener {
+            holder.cardLayout.visibility = View.GONE
+
             try {
-                //holder.cardLayout.visibility = View.GONE
                 onClick(result!!)
+                //results.remove(result)
+                notifyItemRemoved(position)
+                notifyItemRangeChanged(position,results.size)
             } catch (e: Exception){}
         }
         /*holder.name.text = result?.result_name
@@ -62,6 +67,4 @@ class ReportAdapter(
         val removeButton: ImageView = item.findViewById(R.id.remove)
         val cardLayout: ConstraintLayout = item.findViewById(R.id.card_view)
     }
-
-
 }

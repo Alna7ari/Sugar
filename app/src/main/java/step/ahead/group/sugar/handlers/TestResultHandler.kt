@@ -36,7 +36,7 @@ private constructor() {
 
     fun delete(id: Int) {
         realm.executeTransaction { realm ->
-            realm.where(TestResult::class.java).equalTo("id", id).findAll().deleteAllFromRealm()
+            realm.where(TestResult::class.java).equalTo("id", id).findFirst()?.deleteFromRealm()
         }
     }
 
