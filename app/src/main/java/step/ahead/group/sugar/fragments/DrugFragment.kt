@@ -6,11 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_main.*
-import kotlinx.android.synthetic.main.my_doctor_fragment.*
 import kotlinx.android.synthetic.main.my_drags_fragment.*
-import kotlinx.android.synthetic.main.my_drags_fragment.add_btn
-import kotlinx.android.synthetic.main.my_drags_fragment.close_btn
 import step.ahead.group.sugar.R
 import step.ahead.group.sugar.adapters.DrugAdapter
 import step.ahead.group.sugar.dialogs.AddDrugDialog
@@ -39,8 +35,7 @@ class DrugFragment : MasterStuffFragment() {
     }
     override fun onResume() {
         super.onResume()
-        //show()
-        // اين الريسايكلر في هذا الفراجمنت؟؟؟
+        show()
     }
     private fun show() {
         try {
