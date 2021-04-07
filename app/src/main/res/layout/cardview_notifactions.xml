@@ -28,7 +28,7 @@
             app:layout_constraintVertical_bias="0.0">
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/droid_arabic_kufi"
@@ -44,7 +44,7 @@
                 app:layout_constraintVertical_bias="0.175" />
 
             <ImageView
-                android:id="@+id/more_doctor_btn"
+                android:id="@+id/remove_btn"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="@drawable/custom_add_bg"
@@ -82,7 +82,7 @@
                     app:srcCompat="@drawable/alarm_photo" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/droid_arabic_kufi"
